@@ -1,33 +1,47 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="./index.css">
-	<title>Rita's Projects</title>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="./index.js"></script>
+
+	<title>Rita Lu</title>
 	<style type="text/css"></style>
 </head>
 
 <body>
-	<div id="sidebar">
-			Rita Lu
-	</div>
+	<td >
+		<div class="sidebar">
+		<h1>
+		Rita Lu
+		</h1>
+			<br><br>
+			<button id="projects" class="tab" onclick="projects()"> Projects </button>
+			<br><br>
+			<button id="about" class="tab" onclick="aboutme()"> About Me</button>
+		</div>
+	</td>
 
-	<div id="main">
-	<h2><a href="http://ritalu.github.io/gitgrid"> GridHub </a></h2>
-	<p> A web app that allows GitHub users to create an image with their commit pattern.
-	</p>
+	<td>
+		<div id="projects_main" class="main">
+			<h2><a href="http://ritalu.github.io/gitgrid"> GridHub </a></h2>
+			<p> A web app that allows GitHub users to create an image with their commit pattern.</p>
+			<h2><a href="http://ritalu.github.io/DJesture"> DJesture </a></h2>
+			<p> A web app that uses Leap Motion to track ther user's hand position and produces different notes accordingly. Requires a Leap Motion for full functionality.
+			<br>
+			HackPrinceton 2014
+			</p>
 
-	<h2><a href="http://ritalu.github.io/DJesture"> DJesture </a></h2>
-	<p> A web app that uses Leap Motion to track ther user's hand position and produces different notes accordingly. Requires a Leap Motion for full functionality.
-	<br>
-	Built for HackPrinceton 2014
-	</p>
-
-	<h2><a href="http://github.com/ritalu/canadia"> Canadia! </a></h2>
-	<p>
-	A very patriotic Google Chrome extension that requires a Leap Motion for full functionality.
-	<br>
-	Built for HackPrinceton 2014
-	</p>
-	</div>
+			<h2><a href="http://github.com/ritalu/canadia"> Canadia! </a></h2>
+			<p>
+			A very patriotic Google Chrome extension that requires a Leap Motion for full functionality.
+			<br>
+			HackPrinceton 2014
+			</p>
+		</div>
+		<div id="aboutme_main" class="main" style="display:none">
+		Rita is two semesters away from completing her Bachelor of Science in Computer Science at McGill University.
+		</div>
+	</td>
+	</tr>
 </body>
-
 </html>
