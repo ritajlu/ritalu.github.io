@@ -1,8 +1,7 @@
 h1 {
     letter-spacing: 0.5em;
-    line-height: 1.5;
     font-family: "Verdana";
-    font-size: 12px;
+    font-size: 13px;
     color: black;
     text-align:right;
     font-weight: lighter;
@@ -15,35 +14,58 @@ h2 {
     font-weight: lighter;
 }
 
+
 .main {
-  float: left;
-  width: 50%;
+  width: 80%;
+  height: 100%;
+  font-size: 12px;
+  font-family: "Verdana";
 }
 
+.main_header {
+  font-size: 12px;
+  line-height: 1.5;
+  font-family: "Verdana";
+  width: 80%;
+  height:100%;
+  text-align:top;
+}
 
 .sidebar_head{
-  float: left;
-  width: 20%;
-  height: 30%;
+  width: 100%;
+  height: 100%;
   margin-right: 3%;
+  vertical-align:bottom;
 }
 
 .sidebar {
-  float: left;
-  width: 20%;
+  width: 100%;
   height: 100%;
   margin-right: 3%;
 }
 
+.sidebar_cell {
+  text-align:right;
+  vertical-align:top;
+}
+
+.tab {
+  color:#009E8F;
+}
+
+.email{
+
+  font-size:11px;
+}
 
 body {
   background-color: #ffffff;
 	font-size: 12px;
 	font-family: "Verdana";
 	color: black;
-	margin-top:100;
+	margin-top:8%;
   padding:0;
-  height:100%;
+  margin-left:8%;
 }
 
 a:link {
@@ -66,7 +88,6 @@ a:hover {
 button {
   background-color:white;
   border:0px;
-  float:right;
 }
 button:active {
   background-color:white;
@@ -81,8 +102,4 @@ button:hover{
   text-decoration: none; 
 }
 
-
-.tab {
-  color:#009E8F;
-}
 
