@@ -9,7 +9,33 @@
 </head>
 
 <body>
-	<table>
+	<div class="outer">
+		<div class="inner_header">
+			<h1> Rita Lu </h1>
+		</div>
+		<div class="inner_header">
+			<button id="projects" onclick="projects()"> Projects </button>
+			<button id="about" onclick="aboutme()"> About Me </button>
+			<button id="cv" onclick="cv()"><a href="./assets/rita_lu_cv.pdf"> CV </a></button>
+		</div>
+		<div class="inner_body">
+			<div id="aboutme_main" style="display: none">
+				<p>Rita is two semesters away from completing her Bachelor of Science in Computer Science at McGill University.</p>
+			</div>
+			<div id="projects_main">
+				<p> <a href="http://ritalu.github.io/gitgrid"> GridHub <br></a>A web app that allows GitHub users to create an image with their commit pattern.</p>
+				<p><a href="http://ritalu.github.io/DJesture"> DJesture </a><br><i>HackPrinceton (March 2014)</i> <br> A web app that uses Leap Motion to track ther user's hand position and produces different notes accordingly, much like a theremin. Users can choose between the pentatonic and blues scales  with a radio button. Requires a Leap Motion for full functionality.
+				</p>
+				<p><a href="http://github.com/ritalu/canadia"> Canadia! </a><br><i>HackPrinceton (March 2014)</i><br>
+				A very patriotic Google Chrome extension that requires a Leap Motion for full functionality. </p>
+			</div>
+		</div>
+		<div class="inner_header">
+			<a href="http://ca.linkedin.com/in/lurita"> LINKEDIN </a>
+			<a href="http://github.com/ritalu"> GITHUB </a>
+		</div>
+	</div>
+<!-- 	<table>
 	<tr>
 		<td>
 			<div class="sidebar_head">
@@ -27,7 +53,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td class="sidebar_cell">
+		<td colspan="3" class="sidebar_cell">
 			<div style="float:top"  class="sidebar">
 				<button id="projects" class="tab" style="text-decoration:underline;" onclick="projects()"> Projects </button>
 				<br><br>
@@ -37,6 +63,11 @@
 			</div>
 		</td>
 
+		<td>
+			<div>
+			<img src="./assets/gridhub.png" width="100px" height="100px"> </img>
+			</div>
+		</td>
 		<td style="vertical-align:top">
 			<div id="aboutme_main" class="main" style="display:none" >
 				<p>Rita is two semesters away from completing her Bachelor of Science in Computer Science at McGill University.</p>
@@ -44,15 +75,36 @@
 			<div id="projects_main"  class="main">
 
 				<p> <a href="http://ritalu.github.io/gitgrid"> GridHub <br></a>A web app that allows GitHub users to create an image with their commit pattern.</p>
-
-				<p><a href="http://ritalu.github.io/DJesture"> DJesture </a><br><i>HackPrinceton (March 2014)</i> <br> A web app that uses Leap Motion to track ther user's hand position and produces different notes accordingly. Requires a Leap Motion for full functionality.
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td>
+						<div>
+			<img src="./assets/gridhub.png" width="100px" height="100px"> </img>
+			</div>
+		</td>
+		<td>
+			<div class="main">
+			<p><a href="http://ritalu.github.io/DJesture"> DJesture </a><br><i>HackPrinceton (March 2014)</i> <br> A web app that uses Leap Motion to track ther user's hand position and produces different notes accordingly, much like a theremin. Users can choose between the pentatonic and blues scales  with a radio button. Requires a Leap Motion for full functionality.
 				</p>
+			</div>
+
+		</td>
+	</tr>
+	<tr>
+		<td>
+						<div>
+			<img src="./assets/gridhub.png" width="100px" height="100px"> </img>
+			</div>
+		</td>
+		<td>
+			<div class="main">
 				<p><a href="http://github.com/ritalu/canadia"> Canadia! </a><br><i>HackPrinceton (March 2014)</i><br>
 				A very patriotic Google Chrome extension that requires a Leap Motion for full functionality. </p>
 			</div>
 		</td>
-	</tr>
-	</table>
+	</table> -->
 
 </body>
 </html>

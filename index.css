@@ -3,7 +3,6 @@ h1 {
     font-family: "Verdana";
     font-size: 13px;
     color: black;
-    text-align:right;
     font-weight: lighter;
 }
 
@@ -15,14 +14,37 @@ h2 {
 }
 
 
-.main {
+.outer {
+  margin-top: 5%;
+  width: 100%;
+  text-align: center;
+}
+
+.inner_header {
+  margin-top: 2%;
+  width: 50%;
+  display: inline-block;
+  text-align: center;
+
+}
+.inner_body {
+  margin-top: 2%;
+  width: 50%;
+  height: 60%;
+  display: inline-block;
+  text-align: justify;
+}
+
+
+
+/*.main {
   width: 80%;
   height: 100%;
   font-size: 12px;
   font-family: "Verdana";
-}
+}*/
 
-.main_header {
+/*.main_header {
   font-size: 12px;
   line-height: 1.5;
   font-family: "Verdana";
@@ -56,16 +78,13 @@ h2 {
 .email{
 
   font-size:11px;
-}
+}*/
 
 body {
   background-color: #ffffff;
 	font-size: 12px;
 	font-family: "Verdana";
 	color: black;
-	margin-top:8%;
-  padding:0;
-  margin-left:8%;
 }
 
 a:link {
@@ -88,6 +107,7 @@ a:hover {
 button {
   background-color:white;
   border:0px;
+  color: #009E8F;
 }
 button:active {
   background-color:white;
