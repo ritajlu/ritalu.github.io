@@ -43,6 +43,10 @@ hr {
   text-align: justify;
 }
 
+.underline_default {
+  text-decoration: underline;
+}
+
 #aboutme_left {
   width: 40%;
   float: left;
