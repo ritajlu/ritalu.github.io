@@ -10,6 +10,8 @@ h2 {
     font-family: "Verdana";
     font-size: 12px;
     color: black;
+    font-weight: lighter;
+    letter-spacing: 0.2em;
 }
 
 
@@ -20,7 +22,7 @@ h2 {
 }
 
 .inner_header {
-  margin-top: 1.5%;
+  margin-top: 1%;
   width: 50%;
   display: inline-block;
   text-align: center;
@@ -29,57 +31,29 @@ h2 {
 .inner_body {
   margin-top: 0.5%;
   width: 50%;
-  height: 65%;
+  height: 55%;
   display: inline-block;
   text-align: justify;
+}
+
+#aboutme_left {
+  width: 40%;
+  float: left;
+  margin-top: 2%;
+  display: inline-block;
+}
+
+#aboutme_right {
+  width: 60%;
+  float: right;
+  display: inline-block;
+  margin-top: 2%;
 }
 
 #footer {
   letter-spacing: 0.2em;
 }
 
-/*.main {
-  width: 80%;
-  height: 100%;
-  font-size: 12px;
-  font-family: "Verdana";
-}*/
-
-/*.main_header {
-  font-size: 12px;
-  line-height: 1.5;
-  font-family: "Verdana";
-  width: 80%;
-  height:100%;
-  text-align:top;
-}
-
-.sidebar_head{
-  width: 100%;
-  height: 100%;
-  margin-right: 3%;
-  vertical-align:bottom;
-}
-
-.sidebar {
-  width: 100%;
-  height: 100%;
-  margin-right: 3%;
-}
-
-.sidebar_cell {
-  text-align:right;
-  vertical-align:top;
-}
-
-.tab {
-  color:#009E8F;
-}
-
-.email{
-
-  font-size:11px;
-}*/
 
 body {
   background-color: #ffffff;
