@@ -1,36 +1,38 @@
 function about() {
-    // hide projects, show about me
-    $('#projects_main').hide();
-    $('#aboutme_main').show();
+    // hide everything else, show about me
+    $('.menu_content').hide();
+    $('#about_content').show();
 
-    // underline about me, un-underline projects
+    // un-underline all other tabs, underline about
+    $('.menu_title').css('text-decoration','none');
     $('#about').css('text-decoration','underline');
-    $('#projects').css('text-decoration','none');
-    $('#cv').css('text-decoration','none');
-    $('#blog').css('text-decoration','none');
 }
 
+function speaking(){
+    $('.menu_content').hide();
+    $('#speaking_content').show();
+
+    $('.menu_title').css('text-decoration','none');
+    $('#speaking').css('text-decoration','underline');
+}
 
 function projects(){
-    $('#aboutme_main').hide();
-    $('#projects_main').show();
+    $('.menu_content').hide();
+    $('#projects_content').show();
 
+    $('.menu_title').css('text-decoration','none');
     $('#projects').css('text-decoration','underline');
-    $('#about').css('text-decoration','none');
-    $('#cv').css('text-decoration','none');
-    $('#blog').css('text-decoration','none');
 }
 
 function cv(){
+    $('.menu_title').css('text-decoration','none');
 	$('#cv').css('text-decoration','underline');
-	$('#projects').css('text-decoration','none');
-    $('#about').css('text-decoration','none');
-    $('#blog').css('text-decoration','none');
 }
 
-function blog(){
-    $('#blog').css('text-decoration','underline');
-    $('#cv').css('text-decoration','none');
-    $('#projects').css('text-decoration','none');
-    $('#about').css('text-decoration','none');
+function connect(){
+    $('.menu_content').hide();
+    $('#connect_content').show();
+
+    $('.menu_title').css('text-decoration','none');
+    $('#connect').css('text-decoration','underline');
 }

@@ -55,10 +55,11 @@ hr {
 }
 
 #aboutme_right {
-  width: 60%;
+  width: 57%;
   float: right;
   display: inline-block;
   margin-top: 2%;
+  margin-left: %;
 }
 
 #footer {

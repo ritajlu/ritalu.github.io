@@ -18,26 +18,40 @@
 
 		</div>
 		<div class="inner_header">
-			<button id="about" onclick="about()" class="underline_default"> ABOUT </button>
-			<button id="projects" onclick="projects()"> PROJECTS </button>
-			<button id="cv" onclick="cv()"><a href="./files/rita_lu_cv.pdf" target="_blank"> CV </a></button>
-			<button id="blog" onclick="blog()"><a href="https://thetravellingsalesperson.tumblr.com" target="_blank"> BLOG </a></button>
+			<button id="about" onclick="about()" class="menu_title underline_default"> ABOUT </button>
+			<button id="speaking" onclick="speaking()" class="menu_title"> SPEAKING </button>
+			<button id="projects" onclick="projects()" class="menu_title"> PROJECTS </button>
+			<button id="cv" onclick="cv()"><a href="./files/rita_lu_cv.pdf" target="_blank" class="menu_title"> CV </a></button>
+			<button id="connect" onclick="connect()" class="menu_title"> CONNECT </button>
 		</div>
 		<div class="inner_body">
-			<div id="aboutme_main">
-<!-- 				<div id="aboutme_left">
-					<p>
-						<img src="./assets/profile.jpg" height="100%" width="80%"> </img>
+			<div id="about_content" class="menu_content">
+				<div id="aboutme_left">
+					<img src="./assets/headshot.jpg" width="100%" />
+				</div>
+				<div id="aboutme_right">
+					<p> 
+						Site Reliability Engineer at Google on the Ads Serving team in Dublin, Ireland. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centurifes, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 					</p>
-				</div> -->
-<!-- 				<div id="aboutme_right"> -->
-				<p> 
-					Site Reliability Engineer at Google on the Ads Serving team in Dublin, Ireland.
-				</p>
-<!-- 				</div> -->
-
+				</div>
 			</div>
-			<div id="projects_main" style="display: none">
+
+			<div id="speaking_content" style="display: none" class="menu_content">
+				<p><a href="https://www.usenix.org/conference/srecon17americas" target="_blank"> SRECon Americas 2017 <br></a>
+				<i>March 2017 in San Francisco, USA </i><br>
+				lololol
+				</p>
+				<p><a href="https://unite.shopify.com/" target="_blank"> Shopify Unite 2016 <br></a>
+				<i>March 2016 in San Francisco, USA </i><br>
+				lololol
+				</p>
+				<p><a href="http://http://www.wtmmontreal.com/" target="_blank"> Women Techmakers 2016<br></a>
+				<i>February 2016 in Montreal, Canada </i><br>
+				lololol
+				</p>
+			</div>
+
+			<div id="projects_content" style="display: none" class="menu_content">
 				<p><a href="http://catcus.me" target="_blank"> Catcus.me <br></a>
 				<i>School Project (November 2014) <br>
 				</i>  A pet ownership simulator in the form of a web app. Users can adopt different kinds of pets (such as cacti, cats) and use items (such as water, food) on them to fulfill their daily needs. The virtual pets' need levels will decrease hourly regardless of whether the user is using the site or not to give users an idea of the constant responsibility that comes with owning a real pet.  
@@ -61,11 +75,17 @@
 				A web app that uses Leap Motion to track ther user's hand position and produces different notes accordingly, much like a theremin. Users can choose between the pentatonic and blues scales  with a radio button. Requires a Leap Motion for full functionality.
 				</p>
 			</div>
+
+			<div id="connect_content" style="display: none" class="menu_content">
+				<p>Email me at <a href="mailto:rita.lu410@gmail.com">rita.lu410@gmail.com</a>.<br>
+				Find me on <a href="http://ca.linkedin.com/in/lurita" target="_blank">LinkedIn</a>. <br>
+				Follow my adventures on my <a href="http://thetravellingsalesperson.tumblr.com" target="_blank">blog</a>.
+				</p>
+			</div>
 		</div>
-		<div class="inner_header" id="footer">
-			<a href="http://ca.linkedin.com/in/lurita" target="_blank"> LinkedIn </a>
-			<a href="http://github.com/ritalu" target="_blank"> GitHub </a>
-		</div>
+<!-- 		<div class="inner_header" id="footer">
+			<button id="connect" onclick="connect()" class="menu_title"> CONNECT </button>
+		</div> -->
 	</div>
 
 </body>
